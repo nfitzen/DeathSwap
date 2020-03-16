@@ -1,6 +1,8 @@
 # deathswap:core/values
 # Called from: deathswap:core/init
 
+data remove storage deathswap:values game
+
 # Set messages
 data modify storage deathswap:values game.message.begin.imbalance set value '{"text":"Teams are unbalanced!","color":"red"}'
 data modify storage deathswap:values game.message.begin.title set value '{"text":"DeathSwap"}'
