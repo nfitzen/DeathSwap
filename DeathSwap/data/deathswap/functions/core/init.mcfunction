@@ -9,6 +9,7 @@ scoreboard objectives add ds.const dummy
 function deathswap:core/const
 function deathswap:core/values
 scoreboard players set 2 ds.const 2
+scoreboard players set 20 ds.const 20
 
 team add ds.red "Red"
 team modify ds.red color red

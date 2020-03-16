@@ -41,10 +41,8 @@ gamemode survival @a[tag=ds.player]
 gamemode spectator @a[tag=!ds.player]
 
 # Schedule a swap
-summon minecraft:area_effect_cloud ~ ~ ~ {"Radius":0f,"Duration":2147483647,"Tags":["ds.rng"]}
-execute store result score $rng ds.int run data get entity @e[limit=1,sort=random,tag=ds.rng] UUIDMost 0.00000000023283064365386962890625
+function deathswap:mechanics/rng
 scoreboard players operation $timer ds.int = $rng ds.int
-kill @e[tag=ds.rng]
 
 # Let the DeathSwap begin!
 scoreboard objectives setdisplay sidebar ds.lives
