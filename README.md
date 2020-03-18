@@ -23,7 +23,8 @@ A Minecraft PVP minigame inspired by SethBling.
 There are various settings you can change before the game.
 Currently the settings are for the # of lives and the swap timer.
 
-You can find the default values in the function `deathswap:core/const`.
+You can find the default values for these settings in the function `deathswap:core/const`. I should store these in a separate scoreboard variable.
 
-There's also "values" (bad name) for various things.
-You can find those in the function `deathswap:core/values`
+There are also "values" (bad name) for various things such as translations.
+These are mostly for data pack developers.
+You can find those in the function `deathswap:core/values` and the storage `deathswap:values`.
