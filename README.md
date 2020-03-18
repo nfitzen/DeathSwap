@@ -27,11 +27,3 @@ You can find the default values in the function `deathswap:core/const`.
 
 There's also "values" (bad name) for various things.
 You can find those in the function `deathswap:core/values`
-
-## Copyright
-So yeah. I know data packs are distributed by default in source format, and the game just reads them, but I'm using GPL anyway.
-
-You can use this program under the terms of the [GPLv3], or, at your option, [any later version][GPLvX]. See https://www.gnu.org/licenses/.
-
-[GPLv3]: https://www.gnu.org/licenses/gpl-3.0
-[GPLvX]: https://www.gnu.org/licenses/gpl
