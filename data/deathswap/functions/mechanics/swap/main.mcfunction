@@ -28,6 +28,10 @@ tag @a remove ds.cdt
 # Just in case
 kill @e[tag=ds.tpentity]
 
+scoreboard players operation $resistanceTimer ds.int = $resistanceTime ds.settings
+
+effect give @a[tag=ds.player] minecraft:resistance 1 127
+
 title @a title {"interpret":true,"nbt":"game.message.swap.title","storage":"deathswap:values"}
 
 tellraw @a {"interpret":true,"nbt":"game.message.swap.chat","storage":"deathswap:values"}

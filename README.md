@@ -20,7 +20,7 @@ A Minecraft PVP minigame inspired by SethBling.
 5. Run `function deathswap:begin` to begin!
 
 ### Playing the game (2 players)
-This is just an extension of [§Playing the game](#playing-the-game) incorporating the random team assignments
+This section is just an extension of [§ Playing the game](#playing-the-game) incorporating the random team assignments
 1. Do steps 1-2 from [above](#playing-the-game)
     - Probably `tag @a add ds.player`
 2. Run `function deathswap:begin`
@@ -29,8 +29,10 @@ This is just an extension of [§Playing the game](#playing-the-game) incorporati
 There are various settings you can change before the game.
 Currently the settings are for the # of lives and the swap timer.
 
-You can find the default values for these settings in the function `deathswap:core/const`. I should store these in a separate scoreboard variable.
+You can find the default values for these settings in the function `deathswap:core/settings`.
 
 There are also "values" (bad name) for various things such as translations.
 These are mostly for data pack developers.
-You can find those in the function `deathswap:core/values` and the storage `deathswap:values`.
+
+You can find those in the function `deathswap:core/values`
+and the storage `deathswap:values`.

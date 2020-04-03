@@ -3,17 +3,17 @@
 
 # Apply linear transformations for lives
 scoreboard players operation Red ds.lives = $count_red ds.int
-scoreboard players operation Red ds.lives *= $LifeFunction.a ds.int
-scoreboard players operation Red ds.lives += $LifeFunction.b ds.int
+scoreboard players operation Red ds.lives *= $LifeFunction.a ds.settings
+scoreboard players operation Red ds.lives += $LifeFunction.b ds.settings
 scoreboard players operation Blue ds.lives = Red ds.lives
 
 scoreboard players operation $range ds.int = $count_red ds.int
-scoreboard players operation $range ds.int *= $range.a ds.int
-scoreboard players operation $range ds.int += $range.b ds.int
+scoreboard players operation $range ds.int *= $range.a ds.settings
+scoreboard players operation $range ds.int += $range.b ds.settings
 
 scoreboard players operation $offset ds.int = $count_red ds.int
-scoreboard players operation $offset ds.int *= $offset.a ds.int
-scoreboard players operation $offset ds.int += $offset.b ds.int
+scoreboard players operation $offset ds.int *= $offset.a ds.settings
+scoreboard players operation $offset ds.int += $offset.b ds.settings
 
 # Set players/world back to square one
 
