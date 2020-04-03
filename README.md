@@ -1,4 +1,4 @@
-# DeathSwap 2.0
+# DeathSwap
 A Minecraft PVP minigame inspired by SethBling.
 
 ## Features
