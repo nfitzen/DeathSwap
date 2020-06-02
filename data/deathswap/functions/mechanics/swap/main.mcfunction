@@ -35,7 +35,7 @@ tag @a remove ds.cdt
 # Just in case
 kill @e[tag=ds.tpentity]
 
-scoreboard players operation $resistanceTimer ds.int = $resistanceTime ds.settings
+scoreboard players operation @a[tag=ds.player] ds.resist_timer = $resistanceTime ds.settings
 
 effect give @a[tag=ds.player] minecraft:resistance 1 127
 

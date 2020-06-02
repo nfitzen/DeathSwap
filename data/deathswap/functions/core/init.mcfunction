@@ -12,6 +12,8 @@
 scoreboard objectives add ds.int dummy
 scoreboard objectives add ds.const dummy
 
+scoreboard objectives add ds.resist_timer dummy
+
 # Define values n such
 function deathswap:core/settings
 function deathswap:core/values
