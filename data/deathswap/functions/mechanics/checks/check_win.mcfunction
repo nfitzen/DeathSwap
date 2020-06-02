@@ -1,9 +1,6 @@
-# ------------------------------------------------------------------------------
-# Copyright (C) 2020 Nathaniel Fitzenrider
-# This file is a part of DeathSwap.
-# DeathSwap is licensed under the terms of the Expat/MIT License.
-# See <https://directory.fsf.org/wiki/License:Expat> for details.
-# ------------------------------------------------------------------------------
+# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+#
+# SPDX-License-Identifier: MIT
 
 # function deathswap:mechanics/checks/check_win
 # called as: @a, from: /mechanics/tick/main

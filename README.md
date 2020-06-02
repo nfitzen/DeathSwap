@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+
+SPDX-License-Identifier: MIT
+-->
+
 # DeathSwap
 An implementation of the Minecraft PVP minigame by SethBling.
 
@@ -55,4 +61,4 @@ You can find those in the function `deathswap:core/values` and the storage
 `deathswap:values`.
 
 ## License
-DeathSwap is licensed under the [Expat/MIT License](//directory.fsf.org/wiki/License:Expat)
+DeathSwap is licensed under the [Expat/MIT License](//directory.fsf.org/wiki/License:Expat).

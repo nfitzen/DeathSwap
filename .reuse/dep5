@@ -1,0 +1,22 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: DeathSwap
+Upstream-Contact: Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+Source: https://github.com/nfitzen/DeathSwap
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: data/deathswap/functions/*.mcfunction
+Copyright: 2020 Nathaniel Fitzenrider
+License: MIT
+
+Files: pack/*.json
+Copyright: 2020 Nathaniel Fitzenrider
+License: CC0-1.0
+
+Files: pack.mcmeta
+Copyright: 2020 Nathaniel Fitzenrider
+License: CC0-1.0
