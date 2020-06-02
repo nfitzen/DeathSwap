@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020 Nathaniel Fitzenrider
+# This file is a part of DeathSwap.
+# DeathSwap is licensed under the terms of the Expat/MIT License.
+# See <https://directory.fsf.org/wiki/License:Expat> for details.
+# ------------------------------------------------------------------------------
+
 # function deathswap:begin
 # called by: server op
 # Wrapper for deathswap:mechanics/begin with some extra cleanup and stuff

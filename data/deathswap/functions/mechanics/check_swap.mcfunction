@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020 Nathaniel Fitzenrider
+# This file is a part of DeathSwap.
+# DeathSwap is licensed under the terms of the Expat/MIT License.
+# See <https://directory.fsf.org/wiki/License:Expat> for details.
+# ------------------------------------------------------------------------------
+
 # Tally # of players on each team
 scoreboard players set $tmp_count_red ds.int 0
 scoreboard players set $tmp_count_blue ds.int 0

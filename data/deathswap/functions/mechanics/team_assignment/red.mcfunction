@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020 Nathaniel Fitzenrider
+# This file is a part of DeathSwap.
+# DeathSwap is licensed under the terms of the Expat/MIT License.
+# See <https://directory.fsf.org/wiki/License:Expat> for details.
+# ------------------------------------------------------------------------------
+
 # Red team is the dominant team -- i.e., they have more players
 # $tmp_teamdiff ds.int < 0
 # Called by: @a[tag=ds.player,team=,sort=random], from: ./main

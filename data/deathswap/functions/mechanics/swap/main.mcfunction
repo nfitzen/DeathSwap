@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020 Nathaniel Fitzenrider
+# This file is a part of DeathSwap.
+# DeathSwap is licensed under the terms of the Expat/MIT License.
+# See <https://directory.fsf.org/wiki/License:Expat> for details.
+# ------------------------------------------------------------------------------
+
 tag @a[tag=ds.player,team=ds.red] add ds.swap
 tag @a[tag=ds.player,team=ds.blue] add ds.cdt
 # (cdt = candidate (for red tp)

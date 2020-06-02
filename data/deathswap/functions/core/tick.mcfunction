@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020 Nathaniel Fitzenrider
+# This file is a part of DeathSwap.
+# DeathSwap is licensed under the terms of the Expat/MIT License.
+# See <https://directory.fsf.org/wiki/License:Expat> for details.
+# ------------------------------------------------------------------------------
+
 # Handle swapping timer
 scoreboard players remove $timer ds.int 1
 execute if score $started ds.int matches 1 if score $timer ds.int matches ..0 run function deathswap:mechanics/check_swap
