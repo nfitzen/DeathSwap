@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+#
+# SPDX-License-Identifier: MIT
+
 VERSION_MAJOR := 2
 VERSION_MINOR := 4
 
