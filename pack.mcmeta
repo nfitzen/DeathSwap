@@ -1,7 +1,6 @@
--e {
+{
     "pack": {
         "pack_format": 2,
-        "description": "DeathSwap 2.4 by nfitzen"
+        "description": "DeathSwap v0.3.0 by nfitzen"
     }
 }
-
