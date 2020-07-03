@@ -13,6 +13,9 @@ An implementation of the Minecraft PVP minigame by SethBling.
 - Automatic or manual team assignment
     - Any players not already in a team are assigned to one
 - Automatically puts people into spectator when the game begins
+    - Doesn't automatically put people who join into spectator. There's an
+    easier and faster way to implement this. It's `gamemode=spectator` in
+    `server.properties`.
 - Customizable swap timer
     - 20-120s by default with 2 players.
 - Swap timer automatically scales with the number of players
@@ -31,7 +34,7 @@ An implementation of the Minecraft PVP minigame by SethBling.
 3. Ensure there's an even number of players
 4. Run `function deathswap:begin`
 
-### Playing the game (advanced)
+### Playing the game (advanced/teams)
 
 1. Set `gamemode=spectator` in server.properties
     - This pack only makes non-players spectator when the game begins. If
@@ -52,7 +55,8 @@ An implementation of the Minecraft PVP minigame by SethBling.
 There are various settings you can change before the game.
 Currently the settings are for the # of lives and the swap timer.
 
-You can find the default values for these settings in the function `deathswap:core/settings`.
+You can find the default values for these settings in the function
+`deathswap:core/settings`.
 
 There are also string values (bad name) for various things such as translations.
 These are mostly for data pack developers.
@@ -61,4 +65,4 @@ You can find those in the function `deathswap:core/values` and the storage
 `deathswap:values`.
 
 ## License
-DeathSwap is licensed under the [Expat/MIT License](//directory.fsf.org/wiki/License:Expat).
+DeathSwap is licensed under the [Expat/MIT License](LICENSE).
