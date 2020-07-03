@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 # function deathswap:mechanics/handle_death
-# called as/at: @a[scores={ds.death=1..}], from: ./tick/player_handling/main
+# called as/at: @a[scores={ds.death=1..}], from: ./checks/check_death
 
 execute if entity @s[team=ds.red] run scoreboard players remove Red ds.lives 1
 execute if entity @s[team=ds.blue] run scoreboard players remove Blue ds.lives 1

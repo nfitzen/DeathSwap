@@ -64,5 +64,7 @@ These are mostly for data pack developers.
 You can find those in the function `deathswap:core/values` and the storage
 `deathswap:values`.
 
-## License
+## Copyright
 DeathSwap is licensed under the [Expat/MIT License](LICENSE).
+
+More copyright and licensing information can be found in the [dep5 file](.reuse/dep5).
