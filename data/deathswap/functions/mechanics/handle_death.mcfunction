@@ -12,7 +12,9 @@ execute if entity @s[team=ds.blue] run scoreboard players remove Blue ds.lives 1
 
 execute if entity @s[team=ds.red] run tp @s @r[team=ds.red]
 execute if entity @s[team=ds.blue] run tp @s @r[team=ds.blue]
-spreadplayers ~ ~ 5 15 false @s
+
+execute if data entity @s {"Dimension":"minecraft:the_nether"} run spreadplayers ~ ~ 5 15 under 128 false @s
+execute unless data entity @s {"Dimension":"minecraft:the_nether"} run spreadplayers ~ ~ 5 15 false @s
 
 spawnpoint @s ~ ~ ~
 
