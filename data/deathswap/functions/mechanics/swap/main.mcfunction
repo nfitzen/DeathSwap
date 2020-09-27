@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 #
 # SPDX-License-Identifier: MIT
 
@@ -36,6 +36,6 @@ scoreboard players operation @a[tag=ds.player] ds.resist_timer = $resistanceTime
 
 effect give @a[tag=ds.player] minecraft:resistance 1 127
 
-title @a title {"interpret":true,"nbt":"game.message.swap.title","storage":"deathswap:values"}
+title @a title {"interpret":true,"nbt":"game.message.swap.title","storage":"deathswap:string"}
 
-tellraw @a {"interpret":true,"nbt":"game.message.swap.chat","storage":"deathswap:values"}
+tellraw @a {"interpret":true,"nbt":"game.message.swap.chat","storage":"deathswap:string"}

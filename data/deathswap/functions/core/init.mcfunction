@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 #
 # SPDX-License-Identifier: MIT
 
@@ -13,7 +13,7 @@ scoreboard objectives add ds.resist_timer dummy
 
 # Define values n such
 function deathswap:core/settings
-function deathswap:core/values
+function deathswap:core/string
 scoreboard players set 2 ds.const 2
 scoreboard players set 20 ds.const 20
 

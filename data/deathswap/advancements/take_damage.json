@@ -1,10 +1,11 @@
 {
 	"criteria": {
 		"death": {
-			"trigger": "minecraft:entity_hurt_player"
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {}
 		}
 	},
 	"rewards": {
-		"function": "deathswap:mechanics/checks/death"
+		"function": "deathswap:mechanics/checks/check_death"
 	}
 }

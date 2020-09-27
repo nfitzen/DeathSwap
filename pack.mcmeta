@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 5,
-        "description": "DeathSwap 2.4 by nfitzen"
+        "pack_format": 6,
+        "description": "DeathSwap ${version} by nfitzen"
     }
 }

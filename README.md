@@ -1,8 +1,8 @@
 <!--
-SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
-
-SPDX-License-Identifier: MIT
--->
+  ~ SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+  ~
+  ~ SPDX-License-Identifier: MIT
+ -->
 
 # DeathSwap
 An implementation of the Minecraft PVP minigame by SethBling.
@@ -24,6 +24,10 @@ An implementation of the Minecraft PVP minigame by SethBling.
 - Top tier enterprise development with over-engineered code
     - Oh hey, I'll *totally* hook into the data pack in the future. You never
     know! *Hyuk!*
+        - I say this, but wait until you see my [Manhunt datapack].
+        That thing's a total hack.
+
+[Manhunt datapack]: https://github.com/nfitzen/MinecraftManhunt
 
 ## Usage
 
@@ -57,14 +61,17 @@ Currently the settings are for the # of lives and the swap timer.
 
 You can find the default values for these settings in the function
 `deathswap:core/settings`.
+Since these are implemented with scoreboard values instead of world storage, you can't share a settings command.
 
-There are also string values (bad name) for various things such as translations.
-These are mostly for data pack developers.
+There are also string values for various things such as translations
+and are mostly for data pack developers.
 
-You can find those in the function `deathswap:core/values` and the storage
-`deathswap:values`.
+You can find those in the function `deathswap:core/string` and the storage
+`deathswap:string`.
 
 ## Copyright
+
 DeathSwap is licensed under the [Expat/MIT License](LICENSE).
 
-More copyright and licensing information can be found in the [dep5 file](.reuse/dep5).
+More copyright and licensing information can be found in individual files
+and in [the dep5 file](.reuse/dep5) if an SPDX header isn't found.
