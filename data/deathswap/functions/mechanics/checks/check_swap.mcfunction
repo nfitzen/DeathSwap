@@ -21,4 +21,4 @@ execute if score $ended ds.int matches 1.. unless score $tmp_count_red ds.int = 
 
 execute if score $ended ds.int matches 1.. run function deathswap:mechanics/reset
 
-execute if score $game_started ds.int matches 1.. if score Red ds.lives matches 1.. if score Blue ds.lives matches 1.. if score $tmp_count_red ds.int = $tmp_count_blue ds.int run function deathswap:mechanics/swap/main
+execute if score $started ds.int matches 1.. if score Red ds.lives matches 1.. if score Blue ds.lives matches 1.. if score $tmp_count_red ds.int = $tmp_count_blue ds.int run function deathswap:mechanics/swap/main
